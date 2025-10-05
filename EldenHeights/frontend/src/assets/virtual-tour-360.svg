@@ -1,0 +1,7 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="24" fill="#7B1113" fill-opacity="0.08" />
+  <circle cx="400" cy="225" r="160" stroke="#7B1113" stroke-width="14" stroke-dasharray="24 24" fill="white" />
+  <path d="M360 225L410 195V255L360 225Z" fill="#7B1113" />
+  <text x="400" y="330" text-anchor="middle" font-family="'Playfair Display', serif" font-size="48" fill="#7B1113">360°</text>
+  <text x="50%" y="88%" text-anchor="middle" font-family="'Playfair Display', serif" font-size="28" fill="#7B1113">Virtual Tour Placeholder</text>
+</svg>
