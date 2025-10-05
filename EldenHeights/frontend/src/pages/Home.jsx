@@ -4,7 +4,6 @@ import crest from '../assets/crest.svg';
 import gallery1 from '../assets/gallery-1.svg';
 import gallery2 from '../assets/gallery-2.svg';
 import gallery3 from '../assets/gallery-3.svg';
-import virtualTour from '../assets/virtual-tour-360.svg';
 
 const counters = [
   { label: 'Years of Excellence', value: 125 },
@@ -56,12 +55,6 @@ const Home = () => {
               >
                 Admissions Open 2025
               </Link>
-              <a
-                href="#virtual-tour"
-                className="rounded-full border border-white px-6 py-3 text-sm font-semibold uppercase tracking-widest text-white transition hover:bg-white/10"
-              >
-                Virtual Tour
-              </a>
               <Link
                 to="/contact"
                 className="rounded-full border border-white px-6 py-3 text-sm font-semibold uppercase tracking-widest text-white transition hover:bg-white/10"
@@ -88,30 +81,6 @@ const Home = () => {
               <img src={image} alt={`Campus showcase ${index + 1}`} className="h-full w-full object-cover" />
             </div>
           ))}
-        </div>
-      </section>
-
-      <section id="virtual-tour" className="fade-in mx-auto flex max-w-5xl flex-col gap-8 px-6 md:flex-row">
-        <div className="flex-1 space-y-4">
-          <h3 className="text-3xl font-semibold text-cardinal">Experience Elden Heights from Anywhere</h3>
-          <p className="text-sm text-gray-600">
-            Take a glimpse into our iconic campus, innovation labs, and championship arenas through our immersive 360° virtual
-            tour. Discover how tradition meets technology in every corner of The Elden Heights School.
-          </p>
-          <ul className="list-disc space-y-2 pl-5 text-sm text-gray-600">
-            <li>Guided walkthrough narrated by student ambassadors</li>
-            <li>High-definition aerial footage of the 50-acre campus</li>
-            <li>Interactive hotspots for academic blocks, hostels, and sports complexes</li>
-          </ul>
-          <Link
-            to="/campus"
-            className="inline-block rounded-full bg-cardinal px-6 py-3 text-sm font-semibold uppercase tracking-widest text-white transition hover:bg-cardinal/90"
-          >
-            Explore Campus Life
-          </Link>
-        </div>
-        <div className="flex-1 overflow-hidden rounded-3xl shadow-xl">
-          <img src={virtualTour} alt="360 degree virtual tour placeholder" className="h-full w-full object-cover" />
         </div>
       </section>
 
